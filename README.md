@@ -8,7 +8,7 @@ Fügen Sie das Paket in Ihrer `pubspec.yaml` hinzu:
 
 ```yaml
 dependencies:
-  gsd_encryption: ^0.1.1
+  gsd_encryption: [version]
 ```
 
 Führen Sie anschließend `flutter pub get` aus, um das Paket zu installieren.
