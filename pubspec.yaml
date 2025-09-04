@@ -1,0 +1,39 @@
+name: gsd_encryption
+description: "AES and RSA encryption/decryption package for Flutter with secure key storage and cross-platform support including web."
+version: 0.1.15
+repository: https://github.com/GSD-Software-mbH/GSD-Encryption
+homepage: https://gsd-software.com
+documentation: https://github.com/GSD-Software-mbH/GSD-Encryption
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pointycastle: ^4.0.0
+  flutter_secure_storage: ^9.2.4
+  encrypter_plus: ^5.1.0
+  web: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  test: any
+
+false_secrets:
+  - cert/encryption.pem
+  - cert/encryption-pub.pem
+  - example/assets/keys/encryption.pem
+  - example/assets/keys/encryption-pub.pem
+
+flutter:
+
+topics:
+  - encryption
+  - security
+  - aes
+  - rsa
+  - crypto
